@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 100vh;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.icon {
+  height: 70px;
+  min-width: 30px;
+  margin-right: 14px;
+}
+
+.msg-container {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.msg-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.msg-para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
